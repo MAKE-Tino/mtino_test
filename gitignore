@@ -1,0 +1,56 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.csv
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Custom Ignore Rules
+*.pdf
+*.txt
+*.xls
+*.xml
+
+bitrix/.settings.php
+bitrix/.settings.php.crm.orig
+bitrix/web.config
+bitrix/backup/*
+bitrix/cache/*
+bitrix/managed_cache/*
+bitrix/php_interface/dbconn.php
+bitrix/stack_cache/*
+bitrix/tmp/*
+sentry/*
+upload/*
+usage/*
